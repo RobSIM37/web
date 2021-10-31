@@ -1,0 +1,130 @@
+body, #hero-header, #hero-column {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  
+}
+
+#hero-column {
+	margin: 0px;
+}
+
+#wide {
+	max-width: unset;
+}
+
+#wide-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+#gallery, #restaurant-display {
+	width: 500px;
+}
+
+#gallery>img {
+	max-width: 400px;
+	margin: 5px;
+}
+
+#restaurant-display {
+	max-height: 500px;
+	position: sticky;
+	top: 30px;
+}
+
+#resraurant-target {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between;
+	align-content: space-around; */
+	padding: 50px;
+}
+
+body, p {
+	font-family: "Open Sans", sans-serif;
+}
+
+p {
+	font-size: 20px;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+	margin: 5px;
+}
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+#check-box-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+div {
+	border: 2px solid black;
+}
+
+#favorite-buttons {
+	margin-top: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.favorites, h3 {
+	border: 2px solid black;
+	font-size: 20px;
+	justify-content: center;
+	font-weight: bold;
+	height: 50px;
+	width: 33%
+}
+
+.color-changing {
+	background: yellow;
+}
+
+h3 {
+	font-size: 15px;
+	text-align: center;
+	height: 20px;
+}
